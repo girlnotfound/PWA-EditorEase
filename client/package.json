@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack --watch"
+    "start": "webpack --watch",
+    "preinstall": "npm install webpack-cli@5.1.4 -g"
   },
   "author": "2U",
   "license": "UNLICENSED",
