@@ -4,12 +4,11 @@
   "description": "Just Another Text Editor application",
   "main": "server.js",
   "scripts": {
-    "dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server && node server.js --ignore client",
     "build": "cd client && npm install && npm run build",
-    "client": "cd client && npm start",
-    "install": "cd client && npm install && cd ../server && npm install"
+    "install": "cd client && npm install && cd ../server && npm install",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
