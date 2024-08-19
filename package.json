@@ -7,8 +7,9 @@
     "dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server && node server.js --ignore client",
-    "build": "cd client && npm run build",
-    "client": "cd client && npm start"
+    "build": "cd client && npm install && npm run build",
+    "client": "cd client && npm start",
+    "install": "cd client && npm install && cd ../server && npm install"
   },
   "keywords": [],
   "author": "",
@@ -19,10 +20,6 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "html-webpack-plugin": "^5.6.0",
-    "nodemon": "^2.0.4",
-    "webpack-cli": "^5.1.4",
-    "webpack-pwa-manifest": "^4.3.0",
-    "workbox-webpack-plugin": "^7.1.0"
+    "nodemon": "^2.0.4"
   }
 }
