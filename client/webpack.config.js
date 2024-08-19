@@ -35,8 +35,8 @@ module.exports = () => {
         description: "A text editor that can be accessed through a browser",
         background_color: "#36454F",
         theme_color: "#36454F",
-        start_url: "/",
-        publicPath: "/",
+        start_url: "./",
+        publicPath: "./",
         display: "standalone",
         icons: [
           {
