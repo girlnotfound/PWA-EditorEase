@@ -32,7 +32,7 @@ To install PWA EditorEase:
 
 - When in the browser: click 'Install' to get an offline desktop version of the application.
 
-[Link to Deployed PWA-EditorEase]()
+[Link to Deployed PWA-EditorEase](https://pwa-editorease.onrender.com/)
 
 ![Screenshot of PWA-EditorEase](./client/images/JATE-Screenshot.png)
 
